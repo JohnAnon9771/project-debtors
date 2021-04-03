@@ -1,11 +1,3 @@
-<div align="center" id="top">
-  <img src="./.github/app.gif" alt="Project Debtors" />
-
-&#xa0;
-
-  <!-- <a href="https://projectdebtors.netlify.app">Demo</a> -->
-</div>
-
 <h1 align="center">Project Debtors</h1>
 
 <p align="center">
@@ -26,11 +18,11 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center">
+<h4 align="center">
 	🚧  Project Debtors 🚀 Under construction...  🚧
 </h4>
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0;
