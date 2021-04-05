@@ -33,6 +33,9 @@ export default createGlobalStyle`
 
   a, button {
     cursor: pointer;
+  }
+
+  a, button, input, select {
     outline: none;
   }
 `
