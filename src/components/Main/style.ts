@@ -88,4 +88,74 @@ export const Container = styled.div`
       }
     }
   }
+
+  .content {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+
+    h2 {
+      position: relative;
+
+      color: #fff;
+
+      font-size: 2.4rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 40px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 80px;
+        height: 4px;
+        background-color: #fff;
+      }
+    }
+
+    &__form {
+      margin-left: 40px;
+
+      .input-box {
+        display: flex;
+        flex-direction: column;
+
+        width: 70%;
+        margin-top: 20px;
+
+        label {
+          color: #fff;
+          font-weight: 600;
+          font-size: 1.4rem;
+          margin-bottom: 10px;
+        }
+
+        input,
+        select {
+          width: 100%;
+          background-color: rgba(255, 255, 255, 0.2);
+
+          padding: 10px 20px;
+
+          border: none;
+          border-radius: 1rem;
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+          &::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+          }
+        }
+      }
+
+      .form-buttons {
+        .btn-add {
+          margin-right: 100px;
+        }
+      }
+    }
+  }
 `
