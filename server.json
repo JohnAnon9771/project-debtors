@@ -1,0 +1,9 @@
+{
+  "debtors": [
+    {
+      "motivo": "3 parcela do carro",
+      "valor": 200,
+      "idUsuario": 1
+    }
+  ]
+}
